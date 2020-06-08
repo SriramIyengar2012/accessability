@@ -1,0 +1,23 @@
+{
+  "name": "web-accessbility",
+  "version": "1.0.0",
+  "description": "example for testing accessbility with axe and selenium",
+  "main": "index.js",
+  "scripts": {
+    "pack": "node ./report/reporter.js",
+    "test": "./node_modules/.bin/cucumber-js features/ -f json:./report/cucumber_report.json || node ./report/reporter.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "axe-reports": "^1.1.11",
+    "axe-webdriverjs": "^2.3.0",
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.2.0",
+    "jasmine": "^3.5.0"
+  },
+  "devDependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  }
+}

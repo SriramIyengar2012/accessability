@@ -1,0 +1,7 @@
+chromedriver
+*.zip
+*.tgz
+*.csv
+node_modules
+*.DS_Store
+*.vscode/
